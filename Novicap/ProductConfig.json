@@ -1,0 +1,35 @@
+[
+	{
+		"Name": "NoviCap Vouche",
+		"Code": "VOUCHER",
+		"Price": 5.00,
+		"DiscountType": 1,
+		"DiscountObject": {
+			"ApplicableQuantity": 2,
+			"FreeQuantity": 1
+		}
+	},
+	{
+		"Name": "NoviCap T-Shirt",
+		"Code": "TSHIRT",
+		"Price": 20.00,
+		"DiscountType": 2,
+		"DiscountObject": {
+			"ApplicableQuantity": 2,
+			"NewPricePerPiece": 19
+		}
+	},
+	{
+		"Name": "NoviCap Coffee Mug",
+		"Code": "MUG",
+		"Price": 7.50,
+		"DiscountType": 0
+	},
+	{
+		"Name": "NoviCap Coffee Mug",
+		"Code": "MUG2",
+		"Price": 7.50,
+		"DiscountType": 1
+	}
+]
+
