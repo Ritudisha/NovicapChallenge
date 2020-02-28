@@ -7,7 +7,7 @@ using Xunit;
 
 namespace Tests
 {
-    public class UnitTest1
+    public class InvoiceTest
     {
         class InputData : IEnumerable<object[]>
         {
@@ -105,7 +105,7 @@ namespace Tests
             //arrange
             var invoice = new Invoice();
 
-            //assert
+            //action and assert
             var ex = Assert.Throws<Exception>(() => invoice.GetInvoice(products, productConfig));
             Assert.Equal("One of more of the Product codes is or are invalid", ex.Message);
         }
@@ -147,7 +147,7 @@ namespace Tests
             //arrange
             var invoice = new Invoice();
 
-            //assert
+            //action and assert
             var ex = Assert.Throws<Exception>(() => invoice.GetInvoice(products, productConfig));
             Assert.Equal("Invalid Product config", ex.Message);
         }
